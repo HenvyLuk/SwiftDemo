@@ -13,6 +13,7 @@
 		5C4CCDFE1CF7DA5800187C0F /* SwiftDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CCDFC1CF7DA5800187C0F /* SwiftDemo.xcdatamodeld */; };
 		5C4CCE001CF7DA5800187C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCDFF1CF7DA5800187C0F /* Assets.xcassets */; };
 		5C4CCE031CF7DA5800187C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCE011CF7DA5800187C0F /* LaunchScreen.storyboard */; };
+		5C4CCE0B1CF7F14400187C0F /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCE0A1CF7F14400187C0F /* start.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C4CCDFF1CF7DA5800187C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C4CCE021CF7DA5800187C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C4CCE041CF7DA5800187C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4CCE0A1CF7F14400187C0F /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		5C4CCDF41CF7DA5700187C0F /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5C4CCE0A1CF7F14400187C0F /* start.jpg */,
 				5C4CCDF51CF7DA5700187C0F /* AppDelegate.swift */,
 				5C4CCDF71CF7DA5700187C0F /* ViewController.swift */,
 				5C4CCDF91CF7DA5800187C0F /* Main.storyboard */,
@@ -127,6 +130,7 @@
 			files = (
 				5C4CCE031CF7DA5800187C0F /* LaunchScreen.storyboard in Resources */,
 				5C4CCE001CF7DA5800187C0F /* Assets.xcassets in Resources */,
+				5C4CCE0B1CF7F14400187C0F /* start.jpg in Resources */,
 				5C4CCDFB1CF7DA5800187C0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
