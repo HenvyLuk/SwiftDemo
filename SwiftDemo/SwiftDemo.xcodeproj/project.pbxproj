@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0FE1C61D010DC9009FAD60 /* testPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FE1C51D010DC9009FAD60 /* testPro.swift */; };
+		5C0FE1C81D011095009FAD60 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FE1C71D011095009FAD60 /* testViewController.swift */; };
 		5C4CCDF61CF7DA5700187C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CCDF51CF7DA5700187C0F /* AppDelegate.swift */; };
 		5C4CCDF81CF7DA5700187C0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CCDF71CF7DA5700187C0F /* ViewController.swift */; };
 		5C4CCDFB1CF7DA5800187C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCDF91CF7DA5800187C0F /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C0FE1C51D010DC9009FAD60 /* testPro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testPro.swift; sourceTree = "<group>"; };
+		5C0FE1C71D011095009FAD60 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		5C4CCDF21CF7DA5600187C0F /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4CCDF51CF7DA5700187C0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C4CCDF71CF7DA5700187C0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				5C4CCE011CF7DA5800187C0F /* LaunchScreen.storyboard */,
 				5C4CCE041CF7DA5800187C0F /* Info.plist */,
 				5C4CCDFC1CF7DA5800187C0F /* SwiftDemo.xcdatamodeld */,
+				5C0FE1C51D010DC9009FAD60 /* testPro.swift */,
+				5C0FE1C71D011095009FAD60 /* testViewController.swift */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4CCDF81CF7DA5700187C0F /* ViewController.swift in Sources */,
+				5C0FE1C61D010DC9009FAD60 /* testPro.swift in Sources */,
 				5C4CCDFE1CF7DA5800187C0F /* SwiftDemo.xcdatamodeld in Sources */,
+				5C0FE1C81D011095009FAD60 /* testViewController.swift in Sources */,
 				5C4CCDF61CF7DA5700187C0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +304,7 @@
 				5C4CCE091CF7DA5800187C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

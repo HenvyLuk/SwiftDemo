@@ -9,18 +9,51 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var delegate : testPro?
+    
+    
     @IBOutlet weak var myImage: UIImageView!
     
     var dynamicAni = UIDynamicAnimator()
+    var dynamicAnimator: UIDynamicAnimator?
+    var snap :UISnapBehavior?
     
+
     
+ 
+   
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        test()
-        dynamics()
+        //test()
+        //dynamics()
+        //self.dynamicAnimator = UIDynamicAnimator(referenceView: self.view)
+        //animations()
+        self.delegate = testViewController()
+        self.delegate?.testProAction()
+      
+        
+    }
+    
+  
+    @IBOutlet weak var testBtn: UIButton!
+    
+    func animations()  {
+        UIView.animateWithDuration(0.25) {
+            self.myImage.center = CGPointMake(400, 400)
+        }
+    }
+    
+    @IBAction func tapped(sender: AnyObject) {
+        let tap = sender as! UITapGestureRecognizer
+        let point = tap.locationInView(self.view)
+        
+        //self.dynamicAnimator?.removeBehavior(self.snap!)
+        self.snap = UISnapBehavior(item: self.myImage,snapToPoint: point)
+        self.dynamicAnimator?.addBehavior(self.snap!)
+        
     }
 
     func dynamics() {
@@ -42,6 +75,10 @@ class ViewController: UIViewController {
         print(newArray)
         
        
+    }
+    
+    deinit{
+       print("ViewController-deinit")
     }
     
 }
